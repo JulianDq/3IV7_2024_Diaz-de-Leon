@@ -3,6 +3,7 @@ Algoritmo cobroestacionamiento
 	Definir totalHoras, totalminutos, minutostotalescuenta Como Real
 	Definir totaldecobro Como Real
 	//entrada de datos
+<<<<<<< HEAD
 	// Validación de hora de entrada
 	Repetir
 		Escribir "Ingrese la hora de entrada (HH):"
@@ -37,6 +38,18 @@ Algoritmo cobroestacionamiento
 		FinSi
 	Hasta Que minutosalida >= 0
 
+=======
+	Escribir "Ingrese la hora de entrada (formato de 24 horas)"
+	Leer horaentrada
+	Escribir "ingrese los minutos de entrada (formato de 0 -59)"
+	Leer minutoentrada
+	
+	Escribir "Ingrese la hora de salida (formato de 24 horas)"
+	Leer horasalida
+	Escribir "ingrese los minutos de salida (formato de 0 -59)"
+	Leer minutosalida
+	
+>>>>>>> f694d5ad094050965762d1cd2302324a48716d0c
 	//Proceso 
 	//calcular el tiempo total en minutos
 	totalHoras <- horasalida - horaentrada
@@ -68,5 +81,9 @@ Algoritmo cobroestacionamiento
 		fracciones15min = minutosrestantes
 		totaldecobro = totaldecobro + fracciones15min * 6
 	FinSi
+<<<<<<< HEAD
 	Escribir "El total a pagar es ", totaldecobro " pesos"
+=======
+	Escribir "El total a pagar es ", totaldecobro "pesos"
+>>>>>>> f694d5ad094050965762d1cd2302324a48716d0c
 FinAlgoritmo
