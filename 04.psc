@@ -69,7 +69,7 @@ Proceso CensoPersonas
                         Leer añosConsulta
                     Fin Mientras
 					
-                    Para i Desde 1 Hasta aniosConsulta Hacer
+                    Para i Desde 1 Hasta añosConsulta Hacer
                         Escribir "Ingrese el año a consultar ", i, ": "
                         Leer añosConsultaList[i]
                     Fin Para
@@ -83,7 +83,7 @@ Proceso CensoPersonas
                         Para j Desde 1 Hasta cantidadPersonas Hacer
                             Si añosConsultaList[año] >= añosNacimiento[j] Y añosConsultaList[año] <= añosFallecimiento[j] Entonces
                                 cantidadVivos <- cantidadVivos + 1
-                                edad <- añosConsultaList[anio] - añosNacimiento[j]
+                                edad <- añosConsultaList[año] - añosNacimiento[j]
                                 
                                 Si edad < edadMasJoven Entonces
                                     edadMasJoven <- edad
@@ -96,7 +96,7 @@ Proceso CensoPersonas
                         Fin Para
                         
                         // Mostrar resultados
-                        Escribir "En el año ", añosConsultaList[anio], " había ", cantidadVivos, " personas vivas."
+                        Escribir "En el año ", añosConsultaList[año], " había ", cantidadVivos, " personas vivas."
                         
                         Si cantidadVivos > 0 Entonces
                             Escribir "La persona viva más joven tenía ", edadMasJoven, " años."
