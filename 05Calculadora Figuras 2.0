@@ -1,0 +1,98 @@
+// Subproceso para cuadrado
+SubProceso CalcularCuadrado(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 4 * lado
+	area <- lado ^ 2
+	Escribir "Cuadrado: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+
+// Subproceso para pentágono
+SubProceso CalcularPentagono(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 5 * lado
+	area <- (5 * lado ^ 2) / (4 * Tan(pi / 5))
+	Escribir "Pentágono: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+
+// Subproceso para hexágono
+SubProceso CalcularHexagono(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 6 * lado
+	area <- (6 * lado ^ 2) / (4 * Tan(pi / 6))
+	Escribir "Hexágono: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+
+// Subproceso para heptágono
+SubProceso CalcularHeptagono(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 7 * lado
+	area <- (7 * lado ^ 2) / (4 * Tan(pi / 7))
+	Escribir "Heptágono: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+
+// Subproceso para octágono
+SubProceso CalcularOctagono(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 8 * lado
+	area <- (8 * lado ^ 2) / (4 * Tan(pi / 8))
+	Escribir "Octágono: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+
+// Subproceso para dodecágono
+SubProceso CalcularDodecagono(lado, pi)
+	Definir perimetro, area Como Real
+	perimetro <- 12 * lado
+	area <- (12 * lado ^ 2) / (4 * Tan( N / 12))
+	Escribir "Dodecágono: "
+	Escribir "Perímetro: ", perimetro
+	Escribir "Área: ", area
+FinSubProceso
+Algoritmo  CalculoFigurasSeleccion
+    Definir lado, opcion Como Real
+	
+    Escribir "Ingrese la longitud del lado para la figura: "
+    Leer lado
+	
+    // Menú de selección
+    Escribir "Seleccione la figura que desea calcular:"
+    Escribir "1. Cuadrado"
+    Escribir "2. Pentágono"
+    Escribir "3. Hexágono"
+    Escribir "4. Heptágono"
+    Escribir "5. Octágono"
+    Escribir "6. Dodecágono"
+    Leer opcion
+	
+
+
+// Decisión según la opción seleccionada
+Segun opcion Hacer
+	Caso 1: 
+		CalcularCuadrado(lado, pi)
+	Caso 2: 
+		CalcularPentagono(lado, pi)
+	Caso 3: 
+		CalcularHexagono(lado, pi)
+	Caso 4: 
+		CalcularHeptagono(lado, pi)
+	Caso 5: 
+		CalcularOctagono(lado, pi)
+	Caso 6: 
+		CalcularDodecagono(lado,pi)
+	De Otro Modo:
+		Escribir "Opción no válida."
+    FinSegun
+
+FinAlgoritmo
+
+
