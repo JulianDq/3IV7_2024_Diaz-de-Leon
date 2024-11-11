@@ -1,0 +1,31 @@
+Canela,Lauraceae,Sri Lanka,Condimento,Postres,Calor,Antiinflamatorio,Seca
+Clavo,Myrtaceae,Indonesia,Condimento,Carnes y postres,Intenso,Analgesico,Seca
+Pimienta Negra,Piperaceae,India,Condimento,Sopas y salsas,Picante,Mejora digestion,Seca
+Anis,Apiaceae,Oriente Medio,Semilla,Pan y dulces,Dulce,Alivia gases,Seca
+Azafran,Iridaceae,Iran,Hilo,Arroces,Amargo y floral,Antidepresivo,Refrigerado
+Curcuma,Zingiberaceae,India,Raiz,Currys y sopas,Tierra y calido,Antiinflamatorio,Seca
+Oregano,Lamiaceae,Mediterraneo,Hoja,Pizzas y pastas,Amargo,Antioxidante,Seca
+Albahaca,Lamiaceae,Mediterraneo,Hoja,Pastas y salsas,Dulce,Mejora digestion,Refrigerado
+Comino,Apiaceae,Egipto,Semilla,Currys y guisos,Tierra,Antiinflamatorio,Seca
+Perejil,Apiaceae,Mediterraneo,Hoja,Ensaladas y sopas,Fresco,Diuretico,Refrigerado
+Jengibre,Zingiberaceae,Asia,Raiz,Infusiones y currys,Picante,Antiinflamatorio,Refrigerado
+Romero,Lamiaceae,Mediterraneo,Hoja,Carnes y pan,Amaderado,Antioxidante,Seca
+Cardamomo,Zingiberaceae,India,Semilla,Postres y currys,Calor y floral,Mejora digestion,Seca
+Laurel,Lauraceae,Mediterraneo,Hoja,Guisos y salsas,Amargo,Relajante,Seca
+Nuez Moscada,Myristicaceae,Indonesia,Semilla,Postres y guisos,Amargo y calido,Antioxidante,Seca
+Cilantro,Apiaceae,Mediterraneo,Hoja,Ensaladas y salsas,Fresco,Mejora digestion,Refrigerado
+Hinojo,Apiaceae,Europa,Semilla,Pan y sopas,Dulce,Alivia gases,Seca
+Ajo,Amaryllidaceae,Asia,Raiz,Salsas y carnes,Picante y fuerte,Antibiotico,Seco
+Cebolla,Amaryllidaceae,Asia,Bulbo,Salsas y guisos,Dulce y picante,Antiinflamatorio,Seca
+Pimienta Blanca,Piperaceae,Asia,Condimento,Salsas y sopas,Picante,Mejora digestion,Seca
+Paprika,Solanaceae,Hungria,Polvo,Carnes y guisos,Dulce y picante,Antiinflamatorio,Seca
+Estragon,Asteraceae,Eurasia,Hoja,Vinagretas y pescados,Dulce y amargo,Estimula apetito,Refrigerado
+Curry,Fabaceae,India,Mezcla,Currys y sopas,Picante,Antiinflamatorio,Seca
+Aji,Solanaceae,America,Condimento,Salsas y guisos,Picante,Antioxidante,Seco
+Mostaza,Brassicaceae,Eurasia,Semilla,Salsas y aderezos,Picante y amargo,Mejora digestion,Seca
+Alcaravea,Apiaceae,Europa,Semilla,Pan y sopas,Amargo,Mejora digestion,Seca
+Menta,Lamiaceae,Mediterraneo,Hoja,Tes y postres,Fresco,Alivia gases,Refrigerado
+Lavanda,Lamiaceae,Mediterraneo,Flor,Postres y tes,Floral y dulce,Relajante,Seca
+Cilantro Seco,Apiaceae,Mediterraneo,Semilla,Salsas y guisos,Herbal,Antiinflamatorio,Seca
+Tomillo,Lamiaceae,Mediterraneo,Hoja,Carnes y sopas,Herbal,Antibacteriano,Seca
+Salvia,Lamiaceae,Mediterráneo,Hoja,Carne y guisos,Herbal y amargo,Antibacteriano,Seca
